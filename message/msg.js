@@ -37,12 +37,12 @@ const jojoapi = "Syaa"
 const ikiapi = "FuckBitch"
 
 // Setting Donasi
-const gopay = "0882-1329-2687"
-const ovo = "0813-1994-4917"
-const dana = "0813-1994-4917"
-const pulsa = "0813-1994-4917"
-const pulsa2 = "0882-1329-2687"
-const ig = "sofunsyabi.jpg"
+const gopay = "-"
+const ovo = "-"
+const dana = "-"
+const pulsa = "0882-9352-4506"
+const pulsa2 = "088293524506"
+const ig = "king_off_xzn"
 
 // Exif
 const Exif = require("../lib/exif")
@@ -232,17 +232,17 @@ module.exports = async(conn, msg, m, setting, store) => {
 			+ 'END:VCARD'
 			return conn.sendMessage(from, { contacts: { displayName: name, contacts: [{ vcard }] }, mentions : mn ? mn : []},{ quoted: quoted })
 		}
-		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6281319944917` } },
+		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6288293524506` } },
 		const buttonsDefault = [
-			{ urlButton: { displayText: `GRUP JOJO-BOT`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
-			{ urlButton: { displayText: `Youtube Channel`, url : `https://youtube.com/channel/UCZzt-Qw0zTYc8UP-LL2G5fA` } },
+			{ urlButton: { displayText: `GRUP BOT`, url : `https://chat.whatsapp.com/Lh6kbnuIp5SH4FaW8MGY7m` } },
+			{ urlButton: { displayText: `MyWeb`, url : `http://fajar472.github.io/` } },
 			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Pemilik Bot`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `Info Bot`, id: `${prefix}infobot` } },
 		]
 		const button5 = [
-			{ callButton: { displayText: `Number Owner`, phoneNumber: `0813-1994-4917` } },
-			{ urlButton: { displayText: `𝙂𝙧𝙪𝙥 𝙅𝙤𝙟𝙤`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
+			{ callButton: { displayText: `Number Owner`, phoneNumber: `0882-9352-4506` } },
+			{ urlButton: { displayText: `GROUP BOT`, url : `https://chat.whatsapp.com/Lh6kbnuIp5SH4FaW8MGY7m` } },
 			{ quickReplyButton: { displayText: `Back To Menu 🔙`, id: `${prefix}menu` } },
 		]
         
@@ -285,7 +285,7 @@ if (chats.startsWith("eh")){
 if (chats.startsWith("Eh")){
    conn.sendMessage(from, { audio: {url : `https://b.top4top.io/m_2223iin241.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
 }
-if (chats.startsWith("Jojo")){
+if (chats.startsWith("Fajar")){
    conn.sendMessage(from, { audio: {url : `https://d.top4top.io/m_22231oj7h1.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
 }
 if (chats.startsWith("woy")){
@@ -343,13 +343,13 @@ if (chats.startsWith("woy")){
 conn.sendMessage(from, { caption: teks, image: {url: `https://telegra.ph/file/7b927d601b6c7496d01ef.jpg`}, templateButtons: buttonsDefault, footer: '© Jojo - Bot', mentions: [sender]} )
 				break
 case prefix+'donasiah':
-  reply(`Jika Ingin Donasi Harap Hubungi Owner\n\nhttps://wa.me/6281319944917`)
+  reply(`Jika Ingin Donasi Harap Hubungi Owner\n\nhttps://wa.me/6288293524506`)
   break
 case prefix+'donasi':
   case prefix+'donate':
   var donasibut = [
-			{ callButton: { displayText: `Number Owner`, phoneNumber: `0813-1994-4917` } },
-			{ urlButton: { displayText: `𝙂𝙧𝙪𝙥 𝙅𝙤𝙟𝙤`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
+			{ callButton: { displayText: `Number Owner`, phoneNumber: `0882-9352-4506` } },
+			{ urlButton: { displayText: `GROUP BOT`, url : `https://chat.whatsapp.com/Lh6kbnuIp5SH4FaW8MGY7m` } },
 			{ quickReplyButton: { displayText: `Aku Ingin Donasi`, id: `${prefix}donasiah` } },
 		]
 var teks = `  │
